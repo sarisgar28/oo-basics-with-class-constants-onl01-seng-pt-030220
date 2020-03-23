@@ -7,7 +7,7 @@ class Shoe
     BRANDS << brand 
     @brand = BRANDS
    end
-  BRANDS = [ ] 
+  ::BRANDS = [ ] 
   
    def cobble
     self.condition = "new"
