@@ -5,6 +5,8 @@ class Shoe
    def initialize(brand)
     @brand = brand 
     BRANDS << brand 
+    if BRANDS contains "brand"
+      
    end
    
   BRANDS =  [] 
