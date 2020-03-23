@@ -6,10 +6,9 @@ class Shoe
     @brand = brand 
     BRANDS << brand 
     if BRANDS contains brand
-      BRANDS << brand 
     else 
-      nil 
-    end 
+      brand << BRANDS 
+     end 
    end
    
   BRANDS =  [] 
