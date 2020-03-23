@@ -7,6 +7,7 @@ class Shoe
     BRANDS << brand 
     @brand = BRANDS
    end
+   
   BRANDS = [ ] 
   
    def cobble
@@ -14,6 +15,4 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  
-
 end
